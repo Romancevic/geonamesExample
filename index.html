@@ -1,0 +1,220 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Paddy Evans">
+		 <link href="libs/css/style.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<select id="selCountry">
+			<option value="GB">Great Britain</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="US">USA</option>
+		</select>
+
+		<select id="selLanguage">
+			<option value="en">English</option>
+			<option value="fr">Francais</option>
+			<option value="de">Deutsche</option>
+		</select>
+
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Continent: 
+					</td>
+					<td id="txtContinent">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Capital: 
+					</td>
+					<td id="txtCapital">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Languages: 
+					</td>
+					<td id="txtLanguages">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Population: 
+					</td>
+					<td id="txtPopulation">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Area (km<sup>2</sup>): 
+					</td>
+					<td id="txtArea">
+						
+					</td>
+					
+					<tr>
+					
+					
+
+				</tr>
+				
+
+			</table>
+			
+			</br>
+
+		<table>
+
+			<tr>
+				<td>
+						API name
+				</td>
+				<td>
+					API description
+				</td>
+				<td>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+						Neighbours
+				</td>
+				<td>
+					<select id="selNeigbours">
+							<option value="GB">Great Britain</option>
+							<option value="FR">France</option>
+							<option value="DE">Germany</option>
+							<option value="US">USA</option>
+					</select>
+				
+				</td>
+				<td>
+						<button id="btnRun1">Submit</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Postal Code
+				</td>
+				<td>
+					<select id="selPostal">
+						<option value="GB">Great Britain</option>
+						<option value="FR">France</option>
+						<option value="DE">Germany</option>
+						<option value="US">USA</option>
+					</select>
+				</td>
+				<td>
+						<button id="btnPostal">Submit</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Children
+				</td>
+				<td>
+						<select id="selChildren">
+						<option value="GB">Great Britain</option>
+						<option value="FR">France</option>
+						<option value="DE">Germany</option>
+						<option value="US">USA</option>
+					</select>
+				</td>
+				<td>
+						<button id="btnRun3">Submit</button>
+				</td>
+			</tr>
+
+			<tr align="center">
+				<td id="txtName">
+				</td>
+				
+					<td id="txtgeonameId">
+						
+					</td>
+					
+					<td id="txtTotalResultsCount">
+					</td>
+					<td id="txtLat">
+					</td>
+					
+					
+					
+				
+			<td id="txtCountryCode1"></td>
+			<td id="txtCountryName1"></td>
+			<td id="txtNumPostalCodes"></td>
+			
+			
+			
+					<td id="txtNameCh">
+						
+					</td>
+					<td id="txtLat1">
+						
+					</td>
+					<td id="txtGeonameId1">
+						
+					</td>
+					
+					<td id="txtfcode">
+						
+					</td>
+			</tr>
+			
+			
+
+
+		</table>
+
+		</div>
+
+
+
+		
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+		<script type="application/javascript" src="libs/js/neighbours.js"></script>
+		<script type="application/javascript" src="libs/js/postalcode1.js"></script>
+		<script type="application/javascript" src="libs/js/children.js"></script>
+				
+	</body>
+
+</html>
